@@ -1,0 +1,89 @@
+main {
+  background: linear-gradient(rgb(34,41,51), rgb(23,31,42));
+  width: 326px;
+  height: 326px;
+  border-radius: 28px;
+  padding: 32px;
+}
+#star {
+  background-color: rgb(40,47,57);
+  padding: 14px;
+  border-radius: 50%;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+#p1 {
+  font-size: 27px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+#p2 {
+  color: rgb(127,134,144);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+#options {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(38,45,55);
+  color: rgb(127,134,144);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 16px;
+  width: 48px;
+  height: 44px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all 0.15s;
+}
+.button:hover {
+  background-color: rgb(252,120,20);
+  color: rgb(22,29,39);
+}
+.js-button {
+  width: 326px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(252,120,20);
+  color: rgb(22,29,39);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  transition: all 0.15s;
+}
+.opacity {
+  opacity: 1;
+  cursor: pointer;
+}
+.opacity:hover {
+  background-color: white;
+}
+.white {
+  background-color: white;
+  color: rgb(22,29,39);
+}
+.white:hover {
+  background-color: white;
+}
+
+@media (max-width: 520px) {
+  main {
+    width: 300px;
+  }
+  .js-button {
+    width: 300px;
+  }
+}
